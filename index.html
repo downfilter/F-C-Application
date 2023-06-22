@@ -12,7 +12,7 @@
     <body>
         <header>
             <h1 id="myHeading">Christopher White</h1>
-            <h2>Aspiring Web Developer</h2>
+            <h2>Aspiring Software Developer</h2>
         </header>
         <nav>
             <ul class="navlist">
@@ -24,12 +24,14 @@
         </nav>
         <main>
             <section id="intro">
-                <img class="headshot" src="images/Christopher White Photo.jpeg" alt="Photo of Christopehr White" />
-                <h1>Hello!</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Varius vel pharetra vel turpis nunc eget lorem dolor sed. Ut lectus arcu bibendum at. Feugiat sed lectus vestibulum mattis ullamcorper velit.
-                    Ut etiam sit amet nisl purus in mollis nunc sed. Sem et tortor consequat id porta nibh. Laoreet sit amet cursus sit amet dictum. Dui id ornare arcu odio ut sem nulla.
-                    In nibh mauris cursus mattis. Felis donec et odio pellentesque diam. Bibendum est ultricies integer quis. Gravida rutrum quisque non tellus orci ac auctor.</p>
+                <div id="intro_image">
+                    <img class="headshot" src="images/Christopher White Photo.jpeg" alt="Photo of Christopehr White" />
+                </div>
+                <div id="intro_text">    
+                    <h1>Hello!</h1>
+                    <p>I’m Christopher (or Chris, whichever you prefer!). I’m an aspiring software developer from London, and I’m looking to grab a place on the Founders and Coders software foundation bootcamp this autumn. 
+                        Although I don’t have a computer science background, I’ve really enjoyed teaching myself the basics of web development. I’m eager to learn much more, and hopefully make a career out of it!</p>
+                </div>
             </section>
             <section id="AboutMe">
                 <h1>About Me</h1>
@@ -37,14 +39,21 @@
                     <div class="column">
                         <i class="fa-solid fa-graduation-cap" style="color: #ffffff;"></i>
                         <h2>Education</h2>
+                        <ul>
+                            <li>University of Oxford - BA (Hons.) Classics and English 2014-17</li>
+                            <li>Certificate of English Language Teaching (CELTA) - Kaplan International English, Dublin 2017</li>
+                        </ul>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. 
                         Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. 
-                        Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit.
-                        Praesent scelerisque tortor sed accumsan convallis.</p>
+                        </p>
                     </div>
                     <div class="column">
                         <i class="fa-solid fa-briefcase" style="color: #ffffff;"></i>
                         <h2>Experience</h2>
+                        <ul>
+                            <li>Researcher/Writer, The Legal 500, London - November 2019 - July 2021</li>
+                            <li>English Language Teacher - Kaplan International College, Covent Garden, London, June 2018 - September 2019</li>
+                        </ul>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. 
                             Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. 
                             Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit.
@@ -53,6 +62,12 @@
                     <div class="column">
                         <i class="fa-solid fa-masks-theater" style="color: #ffffff;"></i>
                         <h2>Wider Interests</h2>
+                        <ul>
+                            <li>Theatre</li>
+                            <li>Literature</li>
+                            <li>Languages</li>
+                            <li>Video Games</li>
+                        </ul>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. 
                             Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. 
                             Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit.
@@ -62,24 +77,30 @@
             </section>
             <section id="WhyCoding">
                 <h1>Why Coding?</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. 
-                    Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. 
-                    Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit.
-                    Praesent scelerisque tortor sed accumsan convallis.</p>
+                <p>Growing up, I never saw myself getting into programming or anything tech-related, but after some time out of work since the pandemic, I’ve considered a lot of options for career changes. I was looking for a few things. A job:</p>
+                <ul>
+                    <li>...in an industry that is growing and will have a job for me.</li>
+                    <li>...which can give me the scope to find work anywhere.</li>
+                    <li>...where I can be always learning and improving my skills.</li>
+                    <li>...whose skills I can use in working on my hobbies (e.g. using programming knowledge to develop small video games)</li>
+                    <li>...that is intellectually stimulating and forces me to learn how to think in a completely different way</li>
+                    <li>...that offers a nice balance between working independently and working in a team.</li>
+                </ul>
             </section>
             <section id="WhatIveLearnt">
                 <h1>What I've Learnt</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. 
-                    Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. 
-                    Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit.
-                    Praesent scelerisque tortor sed accumsan convallis.</p>
+                <p>Responsive website design - I’ve learnt how to use media queries to change website layout on smaller screen sizes. Resize your browser window or access this website on a smartphone to see how the page layout changes.</p>
+                <p>Integrating JavaScript into the website - I’ve learnt how to use event listeners to change aspects of the website when a button is pressed. Press this button to activate a dark mode version of this website.</p>
+                <p>If you’d like to see how the code behind this website works, here’s a link to my Github Repository, where you can access the readMe and explore the code in more detail:</p>
+                <p>I’ve also built a game using HTML, CSS and JavaScript. It’s a simple game that asks you to guess a number between a range of numbers. Here’s the link: </p>
             </section>
             <section id="ContactMe">
                 <h1>Contact Me</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. 
-                    Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. 
-                    Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit.
-                    Praesent scelerisque tortor sed accumsan convallis.</p>
+                <ul>
+                    <li>Email: cotwhite95@hotmail.com</li>
+                    <li>Mobile: 07847004073</li>
+                    <li>GitHub username: downfilter</li>
+                </ul>
             </section>
         </main>
         <footer>
