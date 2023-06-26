@@ -84,12 +84,14 @@ li a {
 }
 
 .column {
+    background-color: dimgray;
     max-width: 30%;
     margin: 25px;
-    box-sizing: border-box;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 15px;
 }
 
 i {
